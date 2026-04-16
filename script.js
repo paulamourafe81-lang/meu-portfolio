@@ -5,8 +5,8 @@ const projetos = [
     link: "https://github.com/paulamourafe81-lang/meu-portfolio.git"
   },
   {
-    nome: "Lista de Tarefas",
-    descricao: "Aplicação simples para organizar tarefas",
+    nome: "Portfólio com React",
+    descricao: "Portfolio utilizando React",
     link: "https://github.com/paulamourafe81-lang/portfolio-react.git"
   }
 ];
@@ -20,7 +20,7 @@ projetos.forEach(projeto => {
   div.innerHTML = `
     <h3>${projeto.nome}</h3>
     <p>${projeto.descricao}</p>
-    <a href=${projeto.link}> Ver no Github </a>
+    <a href="${projeto.link}"> Ver no Github </a>
   `;
 
   lista.appendChild(div);
