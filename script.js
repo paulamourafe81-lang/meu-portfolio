@@ -20,7 +20,7 @@ projetos.forEach(projeto => {
   div.innerHTML = `
     <h3>${projeto.nome}</h3>
     <p>${projeto.descricao}</p>
-    <a href="${projeto.link}"> Ver no Github </a>
+    <a href="${projeto.link}" target="_blank"> Ver no Github </a>
   `;
 
   lista.appendChild(div);
