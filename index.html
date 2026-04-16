@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portfólio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
     <h1>Paula Moura</h1>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
   </header>
-  <div class="container">
-  <section id="sobre">
-    <h2>Sobre mim</h2>
-    <img src="perfil.jpeg" class="foto-perfil">
-    <p>Sou desenvolvedora em aprendizado</p>
-  </section>
-  </div>
-  <section id="projetos">
-    <h2>Meus Projetos</h2>
-    <div id="lista-projetos"></div>
-  </section>
+
+  <main class="container">
+
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+
+      <!-- 👇 imagem adicionada -->
+      <img src="perfil.jpg" alt="Minha foto" class="foto-perfil">
+
+      <p>
+        Sou estudante de desenvolvimento de sistemas e estou aprendendo HTML, CSS e JavaScript.
+      </p>
+    </section>
+
+    
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div id="lista-projetos"></div>
+    </section>
+
+  </main>
 
   <footer>
     <p>© 2026 - Paula Moura</p>
