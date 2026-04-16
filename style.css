@@ -39,7 +39,15 @@ der-radius: 50%; /* deixa redonda */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra suave */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* deixa redonda */
+  object-fit: cover; /* evita deformar a imagem */
+  border: 4px solid #8870FF; /* borda estilosa (pode trocar a cor) */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 .foto-perfil:hover {
   transform: scale(1.05); /* leve zoom ao passar o mouse */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
